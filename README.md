@@ -1,9 +1,8 @@
 # prop-bomb
-This repo contains the control software and build instructions for a device that simulates a briefcase style bomb/remote detonator. 
+This repo contains the control software and build instructions for a device that simulates the look of a briefcase style bomb/remote detonator. 
 
 🚨 WARNING! Don't do anything illegal! Check the laws in your jurisdiction before building or transporting this device! 🚨  
 ⚠️ CAUTION! Included code is an older copy and is out of date with final specs listed below. ⚠️
-
 
 Use cases:
 * Escape rooms
