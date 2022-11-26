@@ -2,7 +2,7 @@
 This repo contains the control software and build instructions for a device that simulates the look of a briefcase style bomb/remote detonator. 
 
 🚨 WARNING! Don't do anything illegal! Check the laws in your jurisdiction before building or transporting this device! 🚨  
-⚠️ CAUTION! Included code is an older copy and is out of date with final specs listed below. ⚠️
+⚠️ CAUTION! This repo and included code is out of date with final specs listed below. Libraries are missing as well. Will revise with next prototype build. ⚠️
 
 Use cases:
 * Escape rooms
@@ -19,14 +19,14 @@ Use cases:
 
 ### Initialization
 1. Device is powered on by the keyed switch
-1. "Cut wires" are detected
+1. Installed "Cut wires" detected by logic board
 1. Arduino pins are set
 1. hd44780 displays setup prompt
 1. Device waits for key input to start setup
 
 ### Setup
-1. User selects "cut wire"
-1. User sets 4 digit pin for keypad
+1. User selects the "cut wire"
+1. User sets 4 digit pin for keypad 
 1. User sets timer (1-99 minute(s)) 
 
 
@@ -36,7 +36,7 @@ Use cases:
 * Fully(almost) configurable options on start up
 * Cut a wire just like in the movies 📽
 * Three "lives"
-* Sassy eccentric dialog
+* Sassy and eccentric onscreen dialog
 
 ## How it's made
 
@@ -50,7 +50,7 @@ Built in Arduino C.
 * Arduino Mega 2560 
 * Hitachi 16x4 LCD
 * 4 digit timer LCD
-* Belkin
+* Belkin battery bank (inaccessible battery bank needs to be able to detect current draw)
 * 10 key keypad
 * 4x cherry long throw rocker switches
 * 4x buttons off an old shirt or jacket
@@ -63,18 +63,23 @@ Built in Arduino C.
 
 
 ## Future Optimizations
-This is some of the messiest code I have ever written. 🍝 
+This was a prototype build and some of the messiest code I have ever written. 🍝 
 
-Companion website/app to generate storyline with presets for game logic. 
+### Next version
 
-### Finale
+* Handcrafted components and brackets will be recreated as 3d printed models. 
+* Companion website/app to generate storylines and automated presets for game logic. 
+* Modular design to fit in a standard sized waterproof case. 
+* Larger LCD for countdown timer. 
+* Intrusion switch detection.
+* Use of off the shelf i2c solutions to simplify layout and cabling
+* Adapting design to use a smaller Uno or Nano board.
 
-Larger LCD for countdown timer. 
-Battery system to allow higher current draw for a vibrating motor on "detonation"
-Upgraded sound system (louder and with wav file playback support.)
-A modular repeatable design for production units.
-Intrusion switch detection.
-Use off the shelf i2c solutions to simplify layout and cabl
+#### Finale
+
+* LiPo battery system to allow higher current draw for a vibrating motor on "detonation"
+* Upgraded sound system (louder and with wav file playback support.)
+
 
 ## Installation
-Download all files and libraries and flash to Arduino over USB.
+Download all files from `/src`, libraries(not included), and flash to Arduino over USB. 
