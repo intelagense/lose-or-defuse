@@ -2,7 +2,9 @@
 This repo contains the control software and build instructions for a device that simulates the look of a briefcase style bomb/remote detonator. 
 
 🚨 WARNING! Don't do anything illegal! Check the laws in your jurisdiction before building or transporting this device! 🚨  
-⚠️ CAUTION! This repo and included code is out of date with final specs listed below. Libraries are missing as well. Will revise with next prototype build. ⚠️
+⚠️ CAUTION! This repo and included code is out of date with final specs listed below. Libraries are missing as well. Will revise with the next prototype build. ⚠️
+
+<img src=".github/assets/overview.jpg" alt="Small open briefcase filled with functional electronics that resemble a time bomb or remote detonator from an action movie.">
 
 Use cases:
 * Escape rooms
