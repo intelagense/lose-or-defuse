@@ -1,5 +1,5 @@
-# prop-bomb
-This repo contains the control software and build instructions for a device that simulates the look of a briefcase style bomb/remote detonator. 
+# Diffuse or Lose
+This repo contains the control software and build instructions for game hardware that simulates diffusing a action movie style bomb/remote detonator. 
 
 🚨 WARNING! Don't do anything illegal! Check the laws in your jurisdiction before building or transporting this device! 🚨  
 ⚠️ CAUTION! This repo and included code is out of date with final specs listed below. Libraries are missing as well. Will revise with the next prototype build. ⚠️
