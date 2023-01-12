@@ -5,7 +5,7 @@
 
 <img src=".github/assets/overview.jpg" alt="Small open briefcase filled with functional electronics that resemble a time bomb or remote detonator from an action movie.">
 
-"Lose or Defuse" is a physical game that simulates the experience of defusing a bomb. It's designed to provide players with an exciting and suspenseful experience, similar to what you might see in action movies. The game is timed and players have only 3 lives, adding to the pressure and excitement. The game also has customizable settings, so you can play multiple rounds and have different experiences each time. To win, players must correctly enter a pin number, press a sequence of labeled buttons and cut or disconnect the correct wire. The game offers a fun and challenging experience that tests player's nerves and skills.
+"Lose or Defuse" is a hands on game device that simulates the experience of defusing a bomb. It's designed to provide players with an exciting and suspenseful experience, similar to what you might see in action movies. The game is timed and players have only 3 lives, adding to the pressure and excitement. The game also has customizable settings, so you can play multiple rounds and have different experiences each time. To win, players must correctly enter a pin number, press a sequence of labeled buttons and cut or disconnect the correct wire. The game offers a fun and challenging experience that tests player's nerves and skills.
 
 This repo contains the Arudino control software and build instructions/options for the game hardware. 
 
