@@ -16,7 +16,13 @@ Use cases:
 * Family game night
 
 ## How it works
-[]()
+The game is initiated by the event organizer who sets the initial parameters, such as the pin number, the wire that needs to be cut, and the length of the countdown timer. The game is secured by a keyed switch that prevents players from resetting or turning off the game.
+
+Once the timer is started, the controls are locked, and the game enters gameplay mode.
+
+To win the game, players must successfully pass three challenges. However, players must be careful because they only have three lives, which can be lost at any time during the three challenges if they guess incorrectly.
+
+<img src=".github/assets/diagram.svg" alt="Flowchart showing progr">
 
 
 ### Prerequisites
